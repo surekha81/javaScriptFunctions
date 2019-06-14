@@ -1,4 +1,4 @@
-# javaScriptFunctions
+
 A function is a parametric block of code defined one time and called any number of times later. In JavaScript a function is composed and influenced by many components:
 
 JavaScript code that forms the function body
