@@ -19,3 +19,12 @@ const message = (function messageFunction(message) {
 })('Hello');
 
 console.log(message);
+
+
+const messageFunction = (function()
+{return(function messageFunction(message) {
+  return message + ' World!';
+})
+})();
+
+console.log(messageFunction('hi'))
